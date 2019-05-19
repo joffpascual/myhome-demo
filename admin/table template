@@ -1,0 +1,15 @@
+  <tbody>
+                                    <?php if($result->num_rows > 0){ 
+    while($row = $result->fetch_assoc()) {
+                                    ?>
+                                    <tr>
+                                        <td><?php echo $row['supplier_name']; ?></td>
+                                        <td><?php echo $row['supplier_contact_person']; ?></td>
+                                        <td><?php echo $row['supplier_email']; ?></td>
+                                        <td><?php echo $row['supplier_number']; ?></td>
+                                        <td><?php echo $row['supplier_address']; ?></td>
+                                    </tr>
+                                    
+
+                                    <?php }} ?>
+                                </tbody>
