@@ -3,7 +3,7 @@ $server=$username=$password=$db=$conn=$query=$sql=$result="";
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $db = "myhome_database";
 
 // Create connectio

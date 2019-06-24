@@ -32,7 +32,7 @@
                                 </span>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="../admin/add-suppliers.php">Add Suppliers</a></li>
+                                <li><a href="admin/add-suppliers.php">Add Suppliers</a></li>
                                 <li><a href="../admin/manage-suppliers.php">Manage Suppliers</a></li>
                             </ul>
                         </li>
